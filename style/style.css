@@ -13,6 +13,7 @@
   --cinza: #b6b3b3;
   --branco: #fff;
   --preto: #000;
+  --zap: #34af23;
 }
 
 html,
@@ -176,6 +177,9 @@ footer {
 .skill3 {
   width: 70%;
 }
+.skill3-1 {
+  width: 60%;
+}
 .skill4 {
   width: 50%;
 }
@@ -212,6 +216,29 @@ footer {
   color: var(--branco);
   font-weight: 500;
   padding-right: 7px;
+}
+
+.btn-zap {
+  position: fixed;
+  bottom: 6vh;
+  right: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 9px;
+  background-color: var(--zap);
+  border-radius: 50%;
+}
+
+.btn-zap:hover,
+.btn-zap:active {
+  filter: brightness(120%);
+}
+
+.fa-whatsapp {
+  font-size: 42px;
+  font-weight: bold;
+  color: var(--branco);
 }
 
 @media screen and (max-width: 1160px) {
