@@ -1,24 +1,26 @@
 (function ($) {
+  var str = 'Tasken';
+  var result = str.link('http://www.tasken.com/');
   var texts = [
-      "Seja Bem-vindo ao meu site.",
-      "Me chamo Rodrigo, sou Desenvolvedor Front-End e Web Design Jr.",
-      "Sou estudante de Análise e desenvolvimento de sistemas da Unopar.",
-      "Buscando estágio em desenvolvedor front end react",
-      "Meu objetivo é crescer e desenvolver profissionalmente junto à empresa.",
+      'Seja Bem-vindo ao meu site.',
+      'Me chamo Rodrigo, sou Desenvolvedor Front-End e Web Design Jr.',
+      'Sou estudante de Análise e desenvolvimento de sistemas da Unopar.',
+      `Estagiário em desenvolvedor front end react na ${result}`,
+      'Meu objetivo é crescer e desenvolver profissionalmente junto à empresa.',
     ],
     row = 0,
     textPos = 0,
-    content = "";
+    content = '';
 
   function typeWriter() {
     if (row === texts.length) {
       return;
     }
-    $("#textTyping").html(content + texts[row].substring(0, textPos) + "_");
+    $('#textTyping').html(content + texts[row].substring(0, textPos) + '_');
     textPos += 1;
     if (texts[row].length + 1 === textPos) {
       // sentence ends
-      content += texts[row] + "<br />";
+      content += texts[row] + '<br />';
       row += 1;
       textPos = 0;
       setTimeout(() => {
