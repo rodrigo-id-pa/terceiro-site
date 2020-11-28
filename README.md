@@ -18,12 +18,12 @@
 ## :computer: Tecnologias
 
 <ul>
-  <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
-  <li><a href="https://jquery.com/">Jquery</a></li>
-  <li><a href="https://michalsnik.github.io/aos/">AOS</a></li>
-  <li><a href="https://popper.js.org/">Popper</a></li>
-  <li><a href="https://swiperjs.com/">Swiper</a></li>
-  <li><a href="https://wowjs.uk/">Wow</a></li>
+  <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap</a></li>
+  <li><a target="_blank" href="https://jquery.com/">Jquery</a></li>
+  <li><a target="_blank" href="https://michalsnik.github.io/aos/">AOS</a></li>
+  <li><a target="_blank" href="https://popper.js.org/">Popper</a></li>
+  <li><a target="_blank" href="https://swiperjs.com/">Swiper</a></li>
+  <li><a target="_blank" href="https://wowjs.uk/">Wow</a></li>
 </ul>
 <br/>
 
