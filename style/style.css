@@ -27,7 +27,8 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
-  min-height: 635px;
+  min-height: 100vh;
+  background-attachment: fixed;
   border-bottom: 3px solid var(--cinza);
 }
 .navbar-fixed-top {
