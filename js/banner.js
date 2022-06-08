@@ -1,9 +1,9 @@
 (function ($) {
   var texts = [
       'Seja Bem-vindo ao meu site.',
-      'Me chamo Rodrigo, sou Desenvolvedor Front-End Júnior',
+      'Me chamo Rodrigo, sou Analista / Desenvolvedor na Firjan',
       'Formado em Análise e Desenvolvimento de Sistemas pela Unopar',
-      'Conhecimentos em Marketing Digital e Designer',
+      'Experiência com Marketing Digital e Designer',
     ],
     row = 0,
     textPos = 0,

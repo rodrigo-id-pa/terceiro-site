@@ -13,7 +13,6 @@
   --cinza: #b6b3b3;
   --branco: #fff;
   --preto: #000;
-  --zap: #34af23;
 }
 
 html,
@@ -122,8 +121,7 @@ body {
 footer {
   color: var(--cinza);
   font-size: 18px;
-  margin-top: 50px;
-  padding: 10px 0;
+  padding: 30px 0;
   font-weight: bold;
 }
 
@@ -170,7 +168,7 @@ footer {
 }
 
 .skill1 {
-  width: 40%;
+  width: 30%;
 }
 .skill2 {
   width: 30%;
@@ -185,7 +183,7 @@ footer {
   width: 40%;
 }
 .skill5 {
-  width: 20%;
+  width: 30%;
 }
 .skill6 {
   width: 80%;
@@ -203,7 +201,7 @@ footer {
   width: 100%;
 }
 .skill11 {
-  width: 50%;
+  width: 30%;
 }
 .skill12 {
   width: 60%;
@@ -219,25 +217,34 @@ footer {
   padding-right: 7px;
 }
 
-.btn-zap {
+.btn-fix {
   position: fixed;
-  bottom: 6vh;
   right: 2vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 6px 9px;
-  background-color: var(--zap);
   border-radius: 50%;
 }
 
-.btn-zap:hover,
-.btn-zap:active {
-  filter: brightness(120%);
+.btn-fix:hover,
+.btn-fix:active {
+  filter: brightness(150%);
 }
 
-.fa-whatsapp {
-  font-size: 42px;
+.btn-linkedin {
+  bottom: 12vh;
+  background-color: #0e76a8;
+}
+
+.btn-github {
+  bottom: 18vh;
+  background-color: var(--preto);
+}
+
+.fa-whatsapp,
+.fa-github,
+.fa-linkedin {
+  font-size: 30px;
   font-weight: bold;
   color: var(--branco);
 }
