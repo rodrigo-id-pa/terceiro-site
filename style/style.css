@@ -166,24 +166,22 @@ footer {
 .skill-bar {
   position: relative;
 }
-
-.skill1 {
-  width: 30%;
-}
-.skill2 {
-  width: 30%;
-}
-.skill3 {
+.skill0,
+.skill01,
+.skill02,
+.skill3,
+.skill8,
+.skill13 {
   width: 50%;
 }
-.skill3-1 {
-  width: 50%;
+.skill1,
+.skill2,
+.skill5,
+.skill11 {
+  width: 30%;
 }
 .skill4 {
   width: 40%;
-}
-.skill5 {
-  width: 30%;
 }
 .skill6 {
   width: 80%;
@@ -191,23 +189,11 @@ footer {
 .skill7 {
   width: 70%;
 }
-.skill8 {
-  width: 50%;
-}
-.skill9 {
-  width: 40%;
-}
 .skill10 {
   width: 100%;
 }
-.skill11 {
-  width: 30%;
-}
 .skill12 {
   width: 60%;
-}
-.skill13 {
-  width: 50%;
 }
 
 .textp {
