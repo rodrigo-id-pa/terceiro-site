@@ -1,502 +1,477 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>DG - Dev Front-End</title>
-    <!------------------------------------------------->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Webmaster" />
-    <meta
-      name="keywords"
-      content="html,css,javascript,front-end,desenvolvedor-web,web-design,design,ux,ui,marketing-digital"
-    />
-    <meta name="author" content="Rodrigo P.A" />
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
-    <meta name="theme-color" content="#b6b3b3" />
-    <!------------------------------------------------->
-    <link rel="stylesheet" href="style/text.css" />
-    <link rel="stylesheet" href="./style/style.css" />
-    <link rel="shortcut icon" href="./imagens/code.png" />
-    <link rel="stylesheet" href="style/bootstrap.min.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-    <link rel="stylesheet" href="style/normalize.min.css" />
-    <link rel="stylesheet" href="style/swiper.min.css" />
-    <link rel="stylesheet" href="style/animate.min.css" />
-    <link rel="stylesheet" href="style/card.css" />
-    <link rel="stylesheet" href="fonts/montserrat.css" />
-    <link rel="stylesheet" href="style/aos.css" />
-    <script src="./js/all.min.js"></script>
-    <!------------------------------------------------->
-  </head>
-  <body>
-    <header>
-      <div class="bg">
-        <img class="logo" src="imagens/logo.png" />
-        <nav class="navbar navbar-fixed-top">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
-                <i class="fas fa-bars"></i>
-              </button>
-            </div>
-            <nav id="links-menu" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav navbar-right">
-                <li>
-                  <a class="text-a" href="#"><i class="fas fa-home"></i> início</a>
-                </li>
-                <li>
-                  <a class="text-a" href="#about"><i class="fas fa-user"></i> sobre</a>
-                </li>
-                <li>
-                  <a class="text-a" href="#skills"><i class="fas fa-code"></i> habilidades</a>
-                </li>
-                <li>
-                  <a class="text-a" href="#project"><i class="fas fa-layer-group"></i> projetos</a>
-                </li>
-              </ul>
-            </nav>
+
+<head>
+  <title>DG - Dev Front-End</title>
+  <!------------------------------------------------->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="Webmaster" />
+  <meta name="keywords"
+    content="html,css,javascript,front-end,desenvolvedor-web,web-design,design,ux,ui,marketing-digital" />
+  <meta name="author" content="Rodrigo P.A" />
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta name="theme-color" content="#b6b3b3" />
+  <!------------------------------------------------->
+  <link rel="stylesheet" href="style/text.css" />
+  <link rel="stylesheet" href="./style/style.css" />
+  <link rel="shortcut icon" href="./imagens/code.png" />
+  <link rel="stylesheet" href="style/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" href="style/normalize.min.css" />
+  <link rel="stylesheet" href="style/swiper.min.css" />
+  <link rel="stylesheet" href="style/animate.min.css" />
+  <link rel="stylesheet" href="style/card.css" />
+  <link rel="stylesheet" href="fonts/montserrat.css" />
+  <link rel="stylesheet" href="style/aos.css" />
+  <script src="./js/all.min.js"></script>
+  <!------------------------------------------------->
+</head>
+
+<body>
+  <header>
+    <div class="bg">
+      <img class="logo" src="imagens/logo.png" />
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#links-menu">
+              <i class="fas fa-bars"></i>
+            </button>
           </div>
-          <!--container-->
-        </nav>
-      </div>
-      <!--bg-->
-      <!-------------------------------------------------------------------->
-      <div class="col-sm-12">
-        <div class="content">
-          <div class="content__container">
-            <p class="content__container__text">Olá, sou</p>
-            <ul class="content__container__list">
-              <li class="content__container__list__item">Desenvolvedor</li>
-              <li class="content__container__list__item">Analista</li>
-              <li class="content__container__list__item">Designer</li>
-              <li class="content__container__list__item">Hack <i class="far fa-grin-hearts"></i></li>
+          <nav id="links-menu" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a class="text-a" href="#"><i class="fas fa-home"></i> início</a>
+              </li>
+              <li>
+                <a class="text-a" href="#about"><i class="fas fa-user"></i> sobre</a>
+              </li>
+              <li>
+                <a class="text-a" href="#skills"><i class="fas fa-code"></i> habilidades</a>
+              </li>
+              <li>
+                <a class="text-a" href="#project"><i class="fas fa-layer-group"></i> projetos</a>
+              </li>
             </ul>
-          </div>
-          <!--content-container-->
+          </nav>
         </div>
-        <!--content-->
+        <!--container-->
+      </nav>
+    </div>
+    <!--bg-->
+    <!-------------------------------------------------------------------->
+    <div class="col-sm-12">
+      <div class="content">
+        <div class="content__container">
+          <p class="content__container__text">Olá, sou</p>
+          <ul class="content__container__list">
+            <li class="content__container__list__item">Desenvolvedor</li>
+            <li class="content__container__list__item">Analista</li>
+            <li class="content__container__list__item">Designer</li>
+            <li class="content__container__list__item">Trilheiro <i class="far fa-grin-hearts"></i></li>
+          </ul>
+        </div>
+        <!--content-container-->
+      </div>
+      <!--content-->
+    </div>
+    <!--col-->
+  </header>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="about">
+          <section class="textTyping border" id="textTyping"></section>
+        </div>
+      </div>
+      <!--sm-12-->
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+  <!--------------------------------------------------------------------------------->
+  <div class="container border d-flex flex-wrap">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="skills">
+          <div class="item" data-aos="fade-right">
+            <h1 class="space text-center">Com que eu trabalho <i class="cor fa fa-code"></i></h1>
+          </div>
+          <!--fade-->
+        </div>
+        <!--skills-->
+      </div>
+      <!--sm-12-->
+      <div class="item" data-aos="fade-up">
+        <div class="col-sm-12">
+          <div class="wrapper">
+            <div class="skill">
+              <p>python</p>
+              <div class="skill-bar skill0 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>power automate</p>
+              <div class="skill-bar skill01 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>power apps</p>
+              <div class="skill-bar skill02 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>power bi</p>
+              <div class="skill-bar skill02 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>react</p>
+              <div class="skill-bar skill1 wow slideInLeft animated">
+                <p class="textp">30%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>react native</p>
+              <div class="skill-bar skill2 wow slideInLeft animated">
+                <p class="textp">30%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>styled components</p>
+              <div class="skill-bar skill3 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>javascript</p>
+              <div class="skill-bar skill4 wow slideInLeft animated">
+                <p class="textp">40%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>typescript</p>
+              <div class="skill-bar skill5 wow slideInLeft animated">
+                <p class="textp">30%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>html5</p>
+              <div class="skill-bar skill6 wow slideInLeft animated">
+                <p class="textp">80%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>css3</p>
+              <div class="skill-bar skill7 wow slideInLeft animated">
+                <p class="textp">70%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>bootstrap</p>
+              <div class="skill-bar skill8 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>responsividade</p>
+              <div class="skill-bar skill10 wow slideInLeft animated">
+                <p class="textp">100%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>figma</p>
+              <div class="skill-bar skill11 wow slideInLeft animated">
+                <p class="textp">30%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>adobe photoshop</p>
+              <div class="skill-bar skill12 wow slideInLeft animated">
+                <p class="textp">60%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>git</p>
+              <div class="skill-bar skill13 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+            <div class="skill">
+              <p>Marketing Digital</p>
+              <div class="skill-bar skill13 wow slideInLeft animated">
+                <p class="textp">50%</p>
+              </div>
+            </div>
+          </div>
+          <!-- wrapper -->
+        </div>
+        <!--col-12-->
+      </div>
+      <!--fade-->
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+  <!--------------------------------------------------------------------------------->
+  <div class="container box-card border">
+    <div class="row">
+      <div class="col-sm-12">
+        <div id="project">
+          <div class="item" data-aos="fade-right">
+            <h1 class="space text-center">Projetos <i class="cor fa fa-layer-group"></i></h1>
+          </div>
+          <!--fade-->
+          <div class="item" data-aos="fade-down">
+            <div class="blog-slider">
+              <div class="blog-slider__wrp swiper-wrapper">
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/purview.png" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Microsoft Purview</div>
+                    <div class="blog-slider__text">ETL dos dados classificados com Python</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Purview_Full_Discover/"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/proffy.png" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Proffy - Rocketseat</div>
+                    <div class="blog-slider__text">Projeto feito com React.js e React native</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Proffy"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/api-git.png" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Api - Github</div>
+                    <div class="blog-slider__text">Projeto feito com React.js</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Api-Github"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/smw.jpg" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Super Mario World</div>
+                    <div class="blog-slider__text">Clone Wildbeast - Origamid</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Super-Mario-World"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto0.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 0</div>
+                    <div class="blog-slider__text">Clone Instagram</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Projeto-0"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto1.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 01</div>
+                    <div class="blog-slider__text">Formulário de Cadastro</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto01"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto2.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 02</div>
+                    <div class="blog-slider__text">Empresa de construção e incorporação</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto02"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto3.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 03</div>
+                    <div class="blog-slider__text">Para Empresas</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto03"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto4.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 04</div>
+                    <div class="blog-slider__text">Site para dentistas</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto04"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto5.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 05</div>
+                    <div class="blog-slider__text">Loja de Carros</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto05"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto6.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 06</div>
+                    <div class="blog-slider__text">Para Empresas 2</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto06"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto7.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 07</div>
+                    <div class="blog-slider__text">Portfólio pessoal ou corporativo</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto07"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto8.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 08</div>
+                    <div class="blog-slider__text">Para empresas 3</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto08"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto9.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 09</div>
+                    <div class="blog-slider__text">Clínica odontológica</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto09"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto10.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 10</div>
+                    <div class="blog-slider__text">Site para aplicativo Android ou IOS</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto-10"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto11.PNG" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 11</div>
+                    <div class="blog-slider__text">Agência Digital</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto11"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+                <div class="blog-slider__item swiper-slide">
+                  <div class="blog-slider__img">
+                    <img src="imagens/projeto12.png" />
+                  </div>
+                  <div class="blog-slider__content">
+                    <div class="blog-slider__title">Projeto 12</div>
+                    <div class="blog-slider__text">Dashboard</div>
+                    <a target="_blank" href="https://github.com/rodrigo-id-pa/Projeto-12/blob/master/README.md"
+                      class="blog-slider__button">Repositório</a>
+                  </div>
+                </div>
+              </div>
+              <!--blog-slider__wrp swiper-wrapper-->
+              <div class="blog-slider__pagination"></div>
+            </div>
+            <!--blog--slider-->
+          </div>
+          <!--fade-->
+        </div>
+        <!--project-->
+      </div>
+      <!--sm-12-->
+    </div>
+    <!--row-->
+  </div>
+  <!--container-->
+  <!--------------------------------------------------------------------------------->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <footer>Copyright-free © Fev/2020 Rodrigo</footer>
       </div>
       <!--col-->
-    </header>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="about">
-            <section class="textTyping border" id="textTyping"></section>
-          </div>
-        </div>
-        <!--sm-12-->
-      </div>
-      <!--row-->
     </div>
-    <!--container-->
-    <!--------------------------------------------------------------------------------->
-    <div class="container border d-flex flex-wrap">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="skills">
-            <div class="item" data-aos="fade-right">
-              <h1 class="space text-center">Com que eu trabalho <i class="cor fa fa-code"></i></h1>
-            </div>
-            <!--fade-->
-          </div>
-          <!--skills-->
-        </div>
-        <!--sm-12-->
-        <div class="item" data-aos="fade-up">
-          <div class="col-sm-12">
-            <div class="wrapper">
-              <div class="skill">
-                <p>python</p>
-                <div class="skill-bar skill0 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>power automate</p>
-                <div class="skill-bar skill01 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>power apps</p>
-                <div class="skill-bar skill02 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>react</p>
-                <div class="skill-bar skill1 wow slideInLeft animated">
-                  <p class="textp">30%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>react native</p>
-                <div class="skill-bar skill2 wow slideInLeft animated">
-                  <p class="textp">30%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>styled components</p>
-                <div class="skill-bar skill3 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>javascript</p>
-                <div class="skill-bar skill4 wow slideInLeft animated">
-                  <p class="textp">40%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>typescript</p>
-                <div class="skill-bar skill5 wow slideInLeft animated">
-                  <p class="textp">30%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>html5</p>
-                <div class="skill-bar skill6 wow slideInLeft animated">
-                  <p class="textp">80%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>css3</p>
-                <div class="skill-bar skill7 wow slideInLeft animated">
-                  <p class="textp">70%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>bootstrap</p>
-                <div class="skill-bar skill8 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>responsividade</p>
-                <div class="skill-bar skill10 wow slideInLeft animated">
-                  <p class="textp">100%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>figma</p>
-                <div class="skill-bar skill11 wow slideInLeft animated">
-                  <p class="textp">30%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>adobe photoshop</p>
-                <div class="skill-bar skill12 wow slideInLeft animated">
-                  <p class="textp">60%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>git</p>
-                <div class="skill-bar skill13 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-              <div class="skill">
-                <p>Marketing Digital</p>
-                <div class="skill-bar skill13 wow slideInLeft animated">
-                  <p class="textp">50%</p>
-                </div>
-              </div>
-            </div>
-            <!-- wrapper -->
-          </div>
-          <!--col-12-->
-        </div>
-        <!--fade-->
-      </div>
-      <!--row-->
-    </div>
-    <!--container-->
-    <!--------------------------------------------------------------------------------->
-    <div class="container box-card border">
-      <div class="row">
-        <div class="col-sm-12">
-          <div id="project">
-            <div class="item" data-aos="fade-right">
-              <h1 class="space text-center">Projetos <i class="cor fa fa-layer-group"></i></h1>
-            </div>
-            <!--fade-->
-            <div class="item" data-aos="fade-down">
-              <div class="blog-slider">
-                <div class="blog-slider__wrp swiper-wrapper">
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/purview.png" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Microsoft Purview</div>
-                      <div class="blog-slider__text">ETL dos dados classificados com Python</div>
-                      <a
-                        target="_blank"
-                        href="https://github.com/rodrigo-id-pa/Purview_Full_Discover/"
-                        class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/proffy.png" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Proffy - Rocketseat</div>
-                      <div class="blog-slider__text">Projeto feito com React.js e React native</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/Proffy" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/api-git.png" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Api - Github</div>
-                      <div class="blog-slider__text">Projeto feito com React.js</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/Api-Github" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/smw.jpg" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Super Mario World</div>
-                      <div class="blog-slider__text">Clone Wildbeast - Origamid</div>
-                      <a
-                        target="_blank"
-                        href="https://github.com/rodrigo-id-pa/Super-Mario-World"
-                        class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto0.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 0</div>
-                      <div class="blog-slider__text">Clone Instagram</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/Projeto-0" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto1.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 01</div>
-                      <div class="blog-slider__text">Formulário de Cadastro</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto01" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto2.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 02</div>
-                      <div class="blog-slider__text">Empresa de construção e incorporação</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto02" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto3.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 03</div>
-                      <div class="blog-slider__text">Para Empresas</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto03" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto4.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 04</div>
-                      <div class="blog-slider__text">Site para dentistas</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto04" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto5.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 05</div>
-                      <div class="blog-slider__text">Loja de Carros</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto05" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto6.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 06</div>
-                      <div class="blog-slider__text">Para Empresas 2</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto06" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto7.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 07</div>
-                      <div class="blog-slider__text">Portfólio pessoal ou corporativo</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto07" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto8.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 08</div>
-                      <div class="blog-slider__text">Para empresas 3</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto08" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto9.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 09</div>
-                      <div class="blog-slider__text">Clínica odontológica</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto09" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto10.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 10</div>
-                      <div class="blog-slider__text">Site para aplicativo Android ou IOS</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto-10" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto11.PNG" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 11</div>
-                      <div class="blog-slider__text">Agência Digital</div>
-                      <a target="_blank" href="https://github.com/rodrigo-id-pa/projeto11" class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                  <div class="blog-slider__item swiper-slide">
-                    <div class="blog-slider__img">
-                      <img src="imagens/projeto12.png" />
-                    </div>
-                    <div class="blog-slider__content">
-                      <div class="blog-slider__title">Projeto 12</div>
-                      <div class="blog-slider__text">Dashboard</div>
-                      <a
-                        target="_blank"
-                        href="https://github.com/rodrigo-id-pa/Projeto-12/blob/master/README.md"
-                        class="blog-slider__button"
-                        >Repositório</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                <!--blog-slider__wrp swiper-wrapper-->
-                <div class="blog-slider__pagination"></div>
-              </div>
-              <!--blog--slider-->
-            </div>
-            <!--fade-->
-          </div>
-          <!--project-->
-        </div>
-        <!--sm-12-->
-      </div>
-      <!--row-->
-    </div>
-    <!--container-->
-    <!--------------------------------------------------------------------------------->
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12 text-center">
-          <footer>Copyright-free © Fev/2020 Rodrigo</footer>
-        </div>
-        <!--col-->
-      </div>
-      <!--row-->
-    </div>
-    <!--container-->
-    <!--contatos-->
+    <!--row-->
+  </div>
+  <!--container-->
+  <!--contatos-->
 
-    <div class="btn-fix btn-linkedin item">
-      <a href="https://www.linkedin.com/in/rodrigoidpa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
+  <div class="btn-fix btn-linkedin item">
+    <a href="https://www.linkedin.com/in/rodrigoidpa/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+  </div>
 
-    <div class="btn-fix btn-github item">
-      <a href="https://www.github.com/rodrigo-id-pa" target="_blank"><i class="fa-brands fa-github"></i></a>
-    </div>
+  <div class="btn-fix btn-github item">
+    <a href="https://www.github.com/rodrigo-id-pa" target="_blank"><i class="fa-brands fa-github"></i></a>
+  </div>
 
-    <script src="js/swiper.min.js"></script>
-    <script src="js/card.js"></script>
-    <script src="js/aos.js"></script>
-    <script src="js/fade.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/banner.js"></script>
-    <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="js/card.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/fade.js"></script>
+  <script src="js/jquery.js"></script>
+  <script src="js/banner.js"></script>
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
 
-    <script src="js/wow.min.js">
-      (function ($) {
-        new WOW().init();
-      })(jQuery);
-    </script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+  <script src="js/wow.min.js">
+    (function ($) {
+      new WOW().init();
+    })(jQuery);
+  </script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+
 </html>

@@ -1,10 +1,11 @@
 (function ($) {
   var texts = [
-      'Seja Bem-vindo ao meu site.',
-      'Me chamo Rodrigo, sou Analista / Desenvolvedor na Firjan',
-      'Formado em Análise e Desenvolvimento de Sistemas pela Unopar',
-      'Experiência com Marketing Digital e Designer',
-    ],
+    'Seja Bem-vindo ao meu site.',
+    'Me chamo Rodrigo, sou Analista de dados / Desenvolvedor RPA.',
+    'Formado em Análise e Desenvolvimento de Sistemas.',
+    'Experiência com Marketing Digital e Designer UX',
+    'Mais informações acesse meu Linkedin ou Github.'
+  ],
     row = 0,
     textPos = 0,
     content = '';

@@ -13,6 +13,7 @@
   --cinza: #b6b3b3;
   --branco: #fff;
   --preto: #000;
+  --azul: #0e76a8;
 }
 
 html,
@@ -30,6 +31,7 @@ body {
   background-attachment: fixed;
   border-bottom: 3px solid var(--cinza);
 }
+
 .navbar-fixed-top {
   position: absolute !important;
 }
@@ -45,6 +47,7 @@ body {
   font-weight: bold;
   color: var(--branco);
 }
+
 .text-a:hover {
   border-top: 2px solid var(--roxo);
   border-bottom: 2px solid var(--roxo);
@@ -136,7 +139,7 @@ footer {
   overflow: hidden;
 }
 
-.skill > p {
+.skill>p {
   font-size: 18px;
   font-weight: 700;
   color: var(--cinza);
@@ -144,6 +147,7 @@ footer {
   text-align: left;
   text-transform: uppercase;
 }
+
 .skill:before {
   width: 100%;
   height: 20px;
@@ -154,6 +158,7 @@ footer {
   bottom: 0;
   border-radius: 3px;
 }
+
 .skill-bar {
   width: 100%;
   height: 20px;
@@ -166,6 +171,7 @@ footer {
 .skill-bar {
   position: relative;
 }
+
 .skill0,
 .skill01,
 .skill02,
@@ -174,24 +180,30 @@ footer {
 .skill13 {
   width: 50%;
 }
+
 .skill1,
 .skill2,
 .skill5,
 .skill11 {
   width: 30%;
 }
+
 .skill4 {
   width: 40%;
 }
+
 .skill6 {
   width: 80%;
 }
+
 .skill7 {
   width: 70%;
 }
+
 .skill10 {
   width: 100%;
 }
+
 .skill12 {
   width: 60%;
 }
@@ -219,12 +231,14 @@ footer {
 
 .btn-linkedin {
   bottom: 12vh;
-  background-color: #0e76a8;
+  background-color: var(--azul);
+  border: 2px solid var(--azul);
 }
 
 .btn-github {
-  bottom: 18vh;
+  bottom: 20vh;
   background-color: var(--preto);
+  border: 2px solid var(--preto);
 }
 
 .fa-whatsapp,
@@ -236,6 +250,7 @@ footer {
 }
 
 @media screen and (max-width: 1160px) {
+
   .textTyping,
   .space {
     font-size: 25px;
@@ -243,6 +258,10 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
+  .btn-github {
+    bottom: 18vh;
+  }
+
   .textTyping {
     font-size: 18px;
   }
@@ -254,9 +273,11 @@ footer {
   .space {
     padding: 30px 0;
   }
+
   .text-a {
     background-color: rgba(0, 0, 0, 0.507);
   }
+
   .navbar-fixed-top {
     position: fixed !important;
   }
@@ -266,9 +287,11 @@ footer {
   .mt15 {
     margin-top: 15px;
   }
+
   .border {
     text-align: center;
   }
+
   .wrapper {
     width: 90%;
   }
